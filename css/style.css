@@ -216,7 +216,8 @@ footer .left ul li{
   padding-right: 10px;
 }
 
-footer .left ul li a{
+footer .left ul li a,
+footer .right ul li i{
   text-decoration: none;
   color: white;
 }
@@ -235,7 +236,5 @@ footer .right ul li{
 }
 
 footer .right ul li i{
-  text-decoration: none;
-  color: white;
   font-size: 1.3rem;
 }
