@@ -93,6 +93,7 @@ section .card{
   min-width: 400px;
   position: relative;
   margin-bottom:30px;
+  cursor: pointer;
 }
 
 section .card .overlay {
