@@ -70,3 +70,98 @@ nav .actions ul li i:hover{
 nav .logo img{
   height: 30px;
 }
+
+/* MAIN */
+
+main .row{
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+section .card{
+  width: calc(100% / 3 - 20px);
+  min-width: 400px;
+  position: relative;
+}
+
+section .card img:hover{
+  
+}
+
+section .card h3{
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+section .card h2{
+  font-size: 1rem;
+}
+
+section .card span:first-of-type{
+  color: red;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+section .card span:last-of-type{
+  text-decoration: line-through;
+  font-size: 0.9rem;
+}
+
+section .card span:first-of-type:after,
+section .card span:last-of-type:after{
+  content: '\20AC';
+}
+
+section .wrap-tag .label{
+  color: white;
+  font-weight: bold;
+}
+
+section .wrap-tag{
+  position: absolute;
+  top: 575px;
+  left: 0;
+}
+
+section .wrap-tag .label{
+  display:flex ;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+section .wrap-tag .label .discount,
+section .wrap-tag .label .info{
+  padding: 5px 9px;
+  font-size: 0.9rem;
+}
+
+section .wrap-tag .label .discount{
+  background-color: red;
+}
+
+section .wrap-tag .label .info{
+  background-color: #008000;
+}
+
+section .heart{
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  right: 0;
+  background-color: white;
+  font-size: 2.5rem;
+  padding: 10px;
+  height: 50px ;
+  width: 50px;
+  text-align: center;
+  line-height: 25px;
+}
+
+section .heart:hover{
+  color: red;
+}
