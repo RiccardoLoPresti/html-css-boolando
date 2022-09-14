@@ -87,9 +87,22 @@ section .card{
   position: relative;
 }
 
-section .card img:hover{
-  
+section .card .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
 }
+
+section .card:hover .overlay {
+  opacity: 1;
+}
+
 
 section .card h3{
   font-weight: 400;
@@ -98,6 +111,7 @@ section .card h3{
 
 section .card h2{
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 section .card span:first-of-type{
@@ -106,7 +120,7 @@ section .card span:first-of-type{
   font-size: 0.9rem;
 }
 
-section .card span:last-of-type{
+section .card span#cancel:last-of-type{
   text-decoration: line-through;
   font-size: 0.9rem;
 }
