@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+  height: 70px;
+  background-color: orange;
+}
+
+footer{
+  height: 100px;
+  background-color: #1a1a1a;
+}
+.container{
+  width: 90%;
+  max-width: 1400px;
+  height: 1000px; /*da togliere*/
+  margin: 0 auto;
+}
+
+.debug{
+  background-color: rgba(0, 255, 255, 0.219);
+  border: 1px solid black;
+}
